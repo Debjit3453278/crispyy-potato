@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
+    //inputting array size
     int n;
-    cout<<"Enter array size: "<<endl;
     cin>>n;
 
+    //inputting elements of the array
     int arr[n];
-    cout<<"Enter elements: ";
     for(int i = 0; i < n; i++) {
         cin>>arr[i];
     }
